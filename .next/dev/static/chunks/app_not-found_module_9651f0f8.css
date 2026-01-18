@@ -1,0 +1,36 @@
+/* [project]/app/not-found.module.css [app-client] (css) */
+.not-found-module__sxuMuG__container {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  display: flex;
+}
+
+.not-found-module__sxuMuG__title {
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.not-found-module__sxuMuG__message {
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.not-found-module__sxuMuG__link {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color .2s;
+}
+
+.not-found-module__sxuMuG__link:hover {
+  background-color: var(--secondary-blue);
+}
+
+/*# sourceMappingURL=app_not-found_module_9651f0f8.css.map*/

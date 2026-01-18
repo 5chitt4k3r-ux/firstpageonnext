@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Gremory/Documents/ASIR%202/IAW/4-%20Programaci%C3%B3n%20de%20aplicaciones%20web%20con%20NEXT/Primera%20Web%20con%20NextJS/firstpageonnext/app/page-content.module.css"],"sourcesContent":[".pageContainer {\r\n    padding: 2rem 20px;\r\n    max-width: 800px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.title {\r\n    color: var(--primary-blue);\r\n    margin-bottom: 1.5rem;\r\n    border-bottom: 2px solid var(--border-color);\r\n    padding-bottom: 0.5rem;\r\n}\r\n\r\n.content {\r\n    line-height: 1.8;\r\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;AAOA"}}]
+}

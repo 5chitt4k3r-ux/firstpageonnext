@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Gremory/Documents/ASIR%202/IAW/4-%20Programaci%C3%B3n%20de%20aplicaciones%20web%20con%20NEXT/Primera%20Web%20con%20NextJS/firstpageonnext/app/not-found.module.css"],"sourcesContent":[".container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 70vh;\r\n    text-align: center;\r\n}\r\n\r\n.title {\r\n    font-size: 4rem;\r\n    color: var(--primary-blue);\r\n    margin-bottom: 1rem;\r\n}\r\n\r\n.message {\r\n    font-size: 1.5rem;\r\n    margin-bottom: 2rem;\r\n    color: var(--text-color);\r\n}\r\n\r\n.link {\r\n    background-color: var(--primary-blue);\r\n    color: var(--white);\r\n    padding: 10px 20px;\r\n    border-radius: 4px;\r\n    font-weight: bold;\r\n    transition: background-color 0.2s;\r\n}\r\n\r\n.link:hover {\r\n    background-color: var(--secondary-blue);\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;AAMA;;;;;;AAMA;;;;;;;;;AASA"}}]
+}

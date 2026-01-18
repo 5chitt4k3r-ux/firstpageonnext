@@ -1,0 +1,79 @@
+/* [project]/components/Navbar.module.css [app-client] (css) */
+.Navbar-module__nuAbfa__navbar {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.Navbar-module__nuAbfa__container {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+}
+
+.Navbar-module__nuAbfa__logo {
+  align-items: center;
+  gap: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.Navbar-module__nuAbfa__navLogo {
+  width: auto;
+  height: 50px;
+}
+
+.Navbar-module__nuAbfa__navLinks {
+  gap: 20px;
+  display: flex;
+}
+
+.Navbar-module__nuAbfa__navItem {
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+}
+
+.Navbar-module__nuAbfa__navItem:hover {
+  color: var(--accent-blue);
+}
+
+.Navbar-module__nuAbfa__dropdown {
+  background-color: var(--white);
+  color: var(--text-color);
+  z-index: 100;
+  border-radius: 4px;
+  flex-direction: column;
+  min-width: 200px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.Navbar-module__nuAbfa__navItem:hover .Navbar-module__nuAbfa__dropdown {
+  display: flex;
+}
+
+.Navbar-module__nuAbfa__dropdownItem {
+  border-bottom: 1px solid var(--light-gray);
+  padding: 10px 15px;
+  transition: background-color .2s;
+}
+
+.Navbar-module__nuAbfa__dropdownItem:last-child {
+  border-bottom: none;
+}
+
+.Navbar-module__nuAbfa__dropdownItem:hover {
+  background-color: var(--light-gray);
+  color: var(--primary-blue);
+}
+
+/*# sourceMappingURL=components_Navbar_module_css_bad6b30c._.single.css.map*/

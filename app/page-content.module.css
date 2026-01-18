@@ -1,0 +1,16 @@
+.pageContainer {
+    padding: 2rem 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.content {
+    line-height: 1.8;
+}

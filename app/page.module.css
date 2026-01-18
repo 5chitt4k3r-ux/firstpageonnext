@@ -1,0 +1,74 @@
+.main {
+    padding: 2rem 0;
+    min-height: 80vh;
+}
+
+.hero {
+    background: url('/cropped-DJI_0008.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    /* Specific height since content is removed */
+    width: 100%;
+    margin-bottom: 3rem;
+    border-radius: 0;
+    /* No border radius */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.newsSection h2,
+.sidebar h2 {
+    color: var(--primary-blue);
+    border-left: 5px solid var(--secondary-blue);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.newsCard {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.newsCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarBox {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.sidebarImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
