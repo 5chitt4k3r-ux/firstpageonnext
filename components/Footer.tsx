@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -26,6 +27,17 @@ const Footer = () => {
                     <h4>DIRECCIÓN ELECTRÓNICA:</h4>
                     <p>https://iescuravalera.es</p>
                     <p>04002714.edu@juntadeandalucia.es</p>
+                    <div className={styles.socials}>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <FaFacebook />
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <FaInstagram />
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <FaTwitter />
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className={styles.copy}>

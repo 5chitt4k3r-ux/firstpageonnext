@@ -147,4 +147,24 @@ ul {
   font-size: .9rem;
 }
 
+.Footer-module__EZoWya__socials {
+  gap: 1rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.Footer-module__EZoWya__socials a {
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: color .3s, transform .3s;
+  display: flex;
+}
+
+.Footer-module__EZoWya__socials a:hover {
+  color: var(--accent-blue);
+  transform: translateY(-3px);
+}
+
 /*# sourceMappingURL=_963f2821._.css.map*/
